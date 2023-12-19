@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ĐĂNG KÝ</title>
+    <style>
+      table, tr, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-family: 'Times New Roman', Times, serif;
+      }
+    </style>
   </head>
   <body>
-    <table border="1px" style="font-family: 'Times New Roman', Times, serif;">
+    <table>
       <thead>
         <tr>
           <th colspan="2">ĐĂNG KÝ</th>
@@ -17,31 +24,31 @@
         <tr>
           <td>Full name</td>
           <td>
-            <input type="text" placeholder="Nhập fullname" />
+            <input type="text" placeholder="Nhập fullname" required/>
           </td>
         </tr>
         <tr>
           <td>Username</td>
           <td>
-            <input type="text" placeholder="Nhập tên" />
+            <input type="text" placeholder="Nhập tên" required />
           </td>
         </tr>
         <tr>
           <td>Password</td>
           <td>
-            <input type="password" placeholder="Nhập mật khẩu" />
+            <input type="password" placeholder="Nhập mật khẩu" required/>
           </td>
         </tr>
         <tr>
           <td>Nhập lại Password</td>
           <td>
-            <input type="password" placeholder="Nhập lại mật khẩu" />
+            <input type="password" placeholder="Nhập lại mật khẩu" required/>
           </td>
         </tr>
         <tr>
           <td>Giới tính</td>
           <td>
-            <input type="radio" name="gt" value="Nam" />Nam
+            <input type="radio" name="gt" value="Nam" checked/>Nam
             <input type="radio" name="gt" value="Nữ" />Nữ
           </td>
         </tr>
@@ -118,9 +125,9 @@
         <tr>
           <td>Sở thích</td>
           <td>
-            <input type="checkbox" name="st" value="Xem Phim" /> Xem Phim
-            <input type="checkbox" name="st" value="Thể Thao" /> Thể Thao
-            <input type="checkbox" name="st" value="Web" /> Web
+            <input type="checkbox" name="st" value="Xem Phim"/>Xem Phim
+            <input type="checkbox" name="st" value="Thể Thao"/>Thể Thao
+            <input type="checkbox" name="st" value="Web"/>Web
           </td>
         </tr>
         <tr>
