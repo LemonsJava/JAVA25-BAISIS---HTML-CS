@@ -213,6 +213,7 @@ a:active {
     margin: 0 auto 8px;
     
 }.lenguage ul {
+    margin-left: -20px;
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
@@ -232,8 +233,7 @@ a:active {
 }
 
 .line-2 {
-    width: 960px;
-    margin: 0 0 8px 20px;
+    margin: 0 0 8px;
     border-bottom: 1px solid #dddfe2;
     font-size: 1px;
     height: 6px;
@@ -245,18 +245,19 @@ a:active {
 }
 
 .other {
-    width: 980px;
     /* background-color: bisque; */
     margin: 0 auto 50px;
 }
 
 .other ul {
+    margin-left: -20px;
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
 }
 
 .other ul li {
+    
     padding-left: 20px;
 }
 
