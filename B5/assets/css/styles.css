@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+}
+
+.container {
+    width: 980px;
+    /* height: 600px; */
+    /* background-color: orange; */
+    margin: 72px auto 112px;
+    display: flex;
+    /* position: relative; */
+}
+
+.logo-title {
+    width: 580px;
+    /* background-color: brown; */
+    padding-right: 32px;
+}
+
+.logo {
+    width: 580px;
+    /* background-color: blue; */
+    
+}
+
+.logo img {
+    width: 262px;
+    object-fit: cover;
+    margin: 112px 0 16px;
+}
+
+.title {
+    width: 500px;
+    /* background-color: aqua; */
+    padding: 0 0 20px;
+}
+
+.title p {
+    font-size: 28px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.form {
+    width: 400px;
+    /* background-color: green; */
+}
+
+.register {
+    width: 100%;
+    /* background-color: violet; */
+    border-radius: 8px;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);;
+}
+
+.form-register {
+    /* display: block; */
+    text-align: center;
+
+}
+
+.email {
+    /* display: block; */
+    padding: 6px 0px;
+    margin: 0 -16px;
+    font-family: inherit;
+}
+
+.email input {
+    display: inline-block;
+    width: 350px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    outline: none;
+}
+
+.password {
+    display: block;
+    padding: 6px 0;
+}
+
+.password input {
+    width: 350px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    outline: none;
+}
+
+.email input[type=text]:focus {
+    border: 1px solid #1877F2;
+}
+
+.password input[type=text]:focus {
+    border: 1px solid #1877F2;
+}
+.button-login {
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.button-login input {
+    background-color: #1877F2;
+    width: 350px;
+    font-size: 20px;
+    color: white;
+    line-height: 48px;
+    border-radius: 6px;
+    border: none;
+    font-weight: bold;
+    cursor:  pointer;
+    
+}
+
+.button-forgot-password {
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    margin: 16px 0 0;
+    display: block;
+    text-align: center;
+}
+
+.button-forgot-password a {
+    color: #1877F2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.line-1 {
+    width: 350px;
+    margin: 20px auto 16px;
+    border-bottom: 1px solid #dadde1;
+    font-size: 1px;
+    
+}
+
+.new-acc {
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    display: block;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.new-acc input {
+    background-color: #42b72a;
+    padding: 0 16px;
+    font-size: 17px;
+    line-height: 48px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.note {
+    /* display: block; */
+    text-align: center;
+    margin: 28px 0 0;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+
+}
+
+.note a {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+
+.note span {
+    font-size: 14px;
+}
+
+
+.footer {
+    width: 980px;
+    /* height: 150px; */
+    /* background-color: yellowgreen; */
+    position: relative;
+    bottom: 0;
+    margin: auto;
+}
+
+.lenguage {
+    width: 100%;
+    /* height: 28px; */
+    padding: 8px 0 0 10px;
+    /* background-color: aqua; */
+    margin: 0 auto 8px;
+    
+}.lenguage ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    /* position: relative;
+    margin: 0 -10px; */
+}
+.lenguage ul li {
+    /* position: absolute; */
+    padding: 0 0 0 10px;
+
+}
+
+.lenguage ul li a {
+    color: #737373;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.line-2 {
+    width: 960px;
+    margin: 0 0 8px 20px;
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 6px;
+}
+
+.footer line span {
+    font-size: 1px;
+    color: #dadde1;
+}
+
+.other {
+    width: 980px;
+    /* background-color: bisque; */
+    margin: 0 auto 50px;
+}
+
+.other ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.other ul li {
+    padding-left: 20px;
+}
+
+.other ul li a {
+    color: #737373;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
