@@ -121,6 +121,7 @@
 .region {
     margin-top: 40px;
     position: relative;
+    
 }
 
 .region select {
@@ -130,6 +131,7 @@
     border: 1px solid rgb(0, 0, 0 / 87%);
     border-radius: 6px;
     outline: none;
+    
 }
 
 .region select:focus {
@@ -153,7 +155,7 @@
     left: 16px;
 }
 
-.region span::selection {
+.region select:focus span {
     color: blue;
 }
 
