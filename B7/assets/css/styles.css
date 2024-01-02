@@ -86,7 +86,7 @@
 }
 
 .main-header .search-header .icon-search i {
-    font-size: 21px;
+    font-size: 20px;
     color: white;
 }
 
@@ -182,11 +182,16 @@
     font-size: 17px;
 }
 
-.detail-sub-menu-main-lv1:hover {
+.menu-main .sub-menu-main .sub-menu-main-lv1 li:hover {
     background-color: #ECEFF1;
 }
 
-.detail-sub-menu-main-lv1:hover span, .detail-sub-menu-main-lv1:hover i {
+
+/* .detail-sub-menu-main-lv1:hover {
+    background-color: #ECEFF1;
+} */
+
+.menu-main .sub-menu-main .sub-menu-main-lv1 li:hover .detail-sub-menu-main-lv1 span, .menu-main .sub-menu-main .sub-menu-main-lv1 li:hover .detail-sub-menu-main-lv1 i {
     display: block;
     color: #f36d00;
 }
@@ -207,6 +212,7 @@
     display: none;
     background-color: white;
     z-index: 555;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
 }
 
 .sub-menu-main-lv2 li:hover .sub-menu-main-lv3 {
@@ -228,6 +234,9 @@
     color: #757575;
     position: absolute;
     left: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .detail-sub-menu-main-lv2 i {
@@ -241,10 +250,12 @@
     background-color: #ECEFF1;
 }
 
-.detail-sub-menu-main-lv2:hover span, .detail-sub-menu-main-lv2:hover i {
+.sub-menu-main-lv2 ul li:hover .detail-sub-menu-main-lv2 span, .sub-menu-main-lv2 ul li:hover .detail-sub-menu-main-lv2 i {
     display: block;
     color: #f36d00;
 }
+
+
 
 
 .sub-menu-main-lv3 {
@@ -257,6 +268,7 @@
     display: none;
     z-index: 666;
     background-color: white;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
 }
 
 .detail-sub-menu-main-lv3 {
@@ -274,6 +286,9 @@
     color: #757575;
     position: absolute;
     left: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .detail-sub-menu-main-lv3:hover {
@@ -296,7 +311,7 @@
 .banner-main .owl-dots {
     position: absolute;
     top: 90%;
-    left: 30%;
+    left: 27%;
     transition: -50%, -50%;
 
 }
